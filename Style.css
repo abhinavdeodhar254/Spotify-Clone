@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Varela+Round&display=swap');
+
+body{
+    background-color: #b5adad;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Nunito","Roboto",sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+.brand img{
+    padding: 8.2px;
+    width: 52px;
+    height: 47.6px;
+}
+nav ul li{
+    padding: 0px 10px 0px 10px;
+}
