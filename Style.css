@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Varela+Round&display=swap');
 
 body{
-    background-color: #b5adad;
+    background-color: #000000cb;
     
 }
 *{
@@ -40,8 +40,9 @@ nav ul li{
 
 .container{
     display: flex;
+    flex-direction: column;
     margin:23px auto;
-    width: 70%;
+    width: 90%;
     border-radius: 12px;
     padding: 34px;
     min-height: 65.1vh;
@@ -50,6 +51,7 @@ nav ul li{
     font-family: 'Velera-Round',sans-serif;
     position:relative;
     overflow: hidden;
+    
    
 
 }
@@ -63,7 +65,7 @@ nav ul li{
     height: 100%;
     border-radius: 12px;
     background-size: cover;
-    background-image: url(Tank.jpg);
+    background-image: url(skullcandy.jpg);
     filter: blur(1px);
     z-index: 1; 
 }
@@ -71,7 +73,6 @@ nav ul li{
     position: relative;
     z-index: 2; /* Ensure the text is above the pseudo-element */
 }
-
 
 
 .bottom{
@@ -97,4 +98,64 @@ nav ul li{
     cursor: pointer;
     
 }
+h1{
+    block-size: 40px;
+}
+.songitem{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f5f7ca  ;
+    width: 45%;
+    margin:8px 0 0 0 ;
+    color: black;
+    border-radius: 32px;
+    padding: 4px;
+    border: none;
+    
+    padding:10px 20px;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    transform: translateY(4px);
+    box-shadow: 0 2px #c5d4e87b;
+}
+.songitem:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px #adb5bdc0 ;
 
+}
+.songitem:hover{
+        background-color: #07070737;
+        color:#fffefe;
+        box-shadow: 0 4px 10px rgba(124, 138, 153, 0.6);
+      }
+
+
+.songitem span{
+    font-size: large;
+}
+
+.songitem img{
+
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+
+}
+
+.timestamp{
+    margin:0 12px;
+    padding:12px
+}
+.timestamp i{
+    margin:0 12px;
+    padding:12px;
+    width: auto;
+    height: auto;
+    
+    
+}
+.songItemContainer{
+    margin-top: 34px;
+}
